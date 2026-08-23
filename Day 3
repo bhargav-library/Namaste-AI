@@ -1,6 +1,9 @@
 What is the difference between Search Engine and LLM?
 
 The main difference is that a search engine primarily retrieves existing information, whereas an LLM generates a response based on patterns learned during training.
-For example, Google uses automated crawlers, commonly called Googlebot, to discover and crawl webpages. The information from those pages is processed and stored in Google's search index. 
-When a user enters a query, Google's ranking systems retrieve relevant pages from the index and rank them based on factors such as relevance, quality, and other signals.
-An LLM works differently. Instead of primarily retrieving a webpage in response to the query, it generates a response by predicting and producing tokens based on patterns and information learned during its training.
+For example, Google uses automated crawlers, commonly called Googlebot, to discover and crawl webpages. The information from those pages is processed and stored in 
+Google's search index. 
+When a user enters a query, Google's ranking systems retrieve relevant pages from the index and rank them based on factors such as relevance, quality, and other 
+signals.
+An LLM works differently. Instead of primarily retrieving a webpage in response to the query, it generates a response by predicting and producing tokens based on 
+patterns and information learned during its training.
