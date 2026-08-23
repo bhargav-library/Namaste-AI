@@ -1,1 +1,83 @@
+What is Machine Learning?
 
+Answer: Machine Learning is a subset of AI where machines learn patterns from data and use those patterns to make predictions or decisions instead of being explicitly programmed with every rule.
+
+3. What is the difference between traditional programming and machine learning?
+
+Answer:Traditional programming: Rules + Data → Output
+Machine learning: Data + Examples → Learning algorithm → Model
+
+In traditional programming, humans define the rules. In ML, the machine learns patterns from data.
+
+4. Is Machine Learning a subset of AI?
+
+Answer: Yes. Machine Learning is one approach used to achieve Artificial Intelligence.
+
+AI
+└── Machine Learning
+
+5. What is a feature in machine learning?
+
+Answer:A feature is a measurable characteristic or input variable used by a machine-learning model to make a prediction.
+
+For house-price prediction, examples are:
+Size
+Location
+Number of bedrooms
+
+6. What is feature engineering?
+Answer: Feature engineering is the process of manually selecting, extracting, or transforming useful features from raw data before giving it to a machine-learning algorithm.
+
+7. Why is feature engineering important in traditional machine learning?
+
+Answer:Because many traditional ML algorithms depend heavily on the quality of the features provided to them. Humans often need to identify which characteristics are useful for the prediction.
+
+8. What is structured data?
+
+Answer:Structured data is organized data that usually follows a predefined format, such as rows and columns in a database.
+
+Example:
+
+Size | Location | Bedrooms | Price
+2000 | Mumbai   | 3        | 80L
+
+9. What is unstructured data?
+
+Answer: Data that doesn't naturally fit into a fixed tabular structure, such as:
+
+Images
+Text
+Audio
+
+Deep learning is particularly effective at learning from such data.
+
+10. What is a neural network?
+
+Answer: A neural network is a machine-learning model made of interconnected mathematical units called neurons, organized into layers.
+
+11. Is a neural network machine learning?
+
+Answer: Yes. Neural networks are a type of machine-learning model.
+
+12. What is Deep Learning?
+
+Answer: Deep Learning is a subset of machine learning that uses neural networks with multiple layers to learn complex patterns and representations from data.
+
+13. What is the relationship between AI, ML, neural networks, and deep learning?
+
+Answer:
+
+AI
+└── Machine Learning
+    └── Neural Networks
+        └── Deep Learning
+
+More precisely, neural networks can be shallow or deep; deep learning refers to neural networks with multiple layers used for hierarchical representation learning.
+
+14. What is the major difference between traditional ML and deep learning?
+
+Answer:The major difference we discussed is feature learning.
+
+Traditional ML often: Data → Human-designed features → ML algorithm → Output
+
+Deep learning can: Raw data → Neural network → Learned features → Output
