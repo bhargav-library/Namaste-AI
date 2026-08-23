@@ -7,3 +7,15 @@ When a user enters a query, Google's ranking systems retrieve relevant pages fro
 signals.
 An LLM works differently. Instead of primarily retrieving a webpage in response to the query, it generates a response by predicting and producing tokens based on 
 patterns and information learned during its training.
+
+1. What is NLP?
+
+Answer: NLP stands for Natural Language Processing. It is a field of AI that deals with enabling computers to work with human language.
+
+2. Why is NLP important in AI?
+
+Answer:Because humans communicate a lot through language. NLP allows machines to process, understand patterns in, and generate human language.
+
+3. When did NLP begin?
+
+Answer: NLP began developing as a research field in the 1950s, alongside the early development of AI and machine translation.
