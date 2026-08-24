@@ -1,3 +1,46 @@
 1. What is automatic feature learning?
 
 Answer:It is the ability of a neural network to automatically learn useful features from raw data instead of requiring humans to manually define all of them.
+
+2. Does a neural network need to be explicitly told what a cat's ears look like?
+
+Answer:No. During training, the network can learn internal representations that become useful for distinguishing cats from other objects.
+
+18. How does a neural network learn to recognize a cat?
+
+Answer: Give it many labelled examples.
+
+It makes predictions.
+
+Compare predictions with the correct answers.
+
+Calculate the error/loss.
+
+Use backpropagation to calculate how the weights contributed to the error.
+
+Adjust the weights.
+
+Repeat many times.
+
+Eventually, it becomes good at recognizing patterns associated with cats.
+
+19. Does a neural network initially know what a cat is?
+
+Answer: No. At the beginning of training, its parameters are generally initialized without the knowledge required for the task. 
+Through training, it adjusts its parameters based on examples.
+
+20. What are weights in a neural network?
+
+Answer: Weights are numerical parameters that determine how strongly different inputs influence neurons. Training adjusts these weights so the network 
+produces better predictions.
+
+21. What happens when a neural network receives an input?
+
+Answer:The input passes through the network's layers. Each layer performs mathematical transformations, eventually producing an output or prediction.
+
+This is called forward propagation.
+
+22. What is forward propagation?
+
+Answer: Forward propagation is the process of passing input data through the neural network from the input layer through the hidden layers to the output 
+layer to produce a prediction.
