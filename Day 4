@@ -27,7 +27,8 @@ Eventually, it becomes good at recognizing patterns associated with cats.
 4. Does a neural network initially know what a cat is?
 
 Answer: No. At the beginning of training, its parameters are generally initialized without the knowledge required for the task. 
-Through training, it adjusts its parameters based on examples. 
+Through training, it adjusts its parameters based on examples.
+
 5. What are weights in a neural network?
 
 Answer: Weights are numerical parameters that determine how strongly different inputs influence neurons. Training adjusts these weights so the network 
