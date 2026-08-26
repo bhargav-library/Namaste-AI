@@ -1,6 +1,7 @@
 What is Machine Learning?
 
-Answer: Machine Learning is a subset of AI where machines learn patterns from data and use those patterns to make predictions or decisions instead of being explicitly programmed with every rule.
+Answer: Machine Learning is a subset of AI where machines learn patterns from data and use those patterns to make predictions or decisions instead of being 
+explicitly programmed with every rule.
 
 3. What is the difference between traditional programming and machine learning?
 
@@ -26,11 +27,13 @@ Location
 Number of bedrooms
 
 6. What is feature engineering?
-Answer: Feature engineering is the process of manually selecting, extracting, or transforming useful features from raw data before giving it to a machine-learning algorithm.
+Answer: Feature engineering is the process of manually selecting, extracting, or transforming useful features from raw data before giving it to a 
+machine-learning algorithm.
 
 7. Why is feature engineering important in traditional machine learning?
 
-Answer:Because many traditional ML algorithms depend heavily on the quality of the features provided to them. Humans often need to identify which characteristics are useful for the prediction.
+Answer:Because many traditional ML algorithms depend heavily on the quality of the features provided to them. Humans often need to identify which 
+characteristics are useful for the prediction.
 
 8. What is structured data?
 
