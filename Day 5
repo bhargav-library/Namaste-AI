@@ -66,3 +66,11 @@ We don't explicitly tell the network:
 "Look for ears, eyes and whiskers."
 
 Instead, during training, the network adjusts its weights based on the loss and gradually learns representations that are useful for the task.
+
+3. Does a neural network actually think, and how does that relate to Haugeland's idea of synthetic intelligence?
+
+Answer: We cannot simply say that a neural network thinks like a human. A neural network learns mathematical patterns and representations from data and can 
+produce very sophisticated behavior. But whether this means it genuinely thinks, understands, or possesses intelligence is a deeper philosophical question.
+This connects to John Haugeland's idea of synthetic intelligence.
+Haugeland asked a deeper question:
+Can we actually construct genuine intelligence in a machine, rather than merely make a machine imitate intelligent behavior?
