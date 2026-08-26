@@ -31,3 +31,38 @@ Gradient Descent
  ↓
 
 Updated weights
+
+
+2. How does deep learning automatically learn features?
+
+Answer: Deep learning uses multiple neural-network layers to automatically learn increasingly complex patterns from the data.
+
+For an image, it can learn something like:
+
+Pixels
+
+ ↓
+
+Edges
+
+ ↓
+
+Shapes
+
+ ↓
+
+Parts like eyes and ears
+
+ ↓
+
+Face/body patterns
+
+ ↓
+
+Cat
+
+We don't explicitly tell the network:
+
+"Look for ears, eyes and whiskers."
+
+Instead, during training, the network adjusts its weights based on the loss and gradually learns representations that are useful for the task.
