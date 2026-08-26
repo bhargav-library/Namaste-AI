@@ -1,1 +1,33 @@
+1. What are loss, backpropagation, and gradient descent?
 
+Answer: Loss tells us how wrong the neural network's prediction is.
+Backpropagation calculates how much each weight contributed to that error.
+Gradient descent uses that information to adjust the weights in a direction that reduces the loss.
+
+The process is:
+
+Input
+
+ ↓
+
+Prediction
+
+ ↓
+
+Loss
+
+ ↓
+
+Backpropagation
+
+ ↓
+
+Gradients
+
+ ↓
+
+Gradient Descent
+
+ ↓
+
+Updated weights
