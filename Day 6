@@ -3,3 +3,26 @@ What is AI halucination?
 AI hallucination is when an AI model generates information that appears plausible and confident but is actually incorrect, fabricated, or unsupported. 
 It happens partly because language models are designed to generate likely sequences of tokens based on learned patterns, rather than inherently 
 verifying every statement against a reliable source. External tools such as search, databases, or calculators can help reduce certain types of hallucinations.
+
+1. What is a base model?
+
+Answer: A base model is a model that has been pretrained on a large amount of data and has learned patterns from that data. It provides the foundation for 
+further adaptation or use.
+
+2. What is an LLM?
+
+Answer: LLM stands for Large Language Model. It is a large neural-network model trained on huge amounts of text data to learn patterns in language and generate text.
+
+3. Is a base model the same as an LLM?
+
+Answer: Not exactly. LLM describes a type of language model, while base model describes the model in its pretrained 
+form before additional adaptation or instruction-oriented training. A base model can be an LLM.
+
+4. What does a base model learn during training?
+
+Answer: It learns patterns and relationships from its training data. In a language model, this includes patterns in language, concepts, 
+and relationships between words and other tokens.
+
+5. How does an LLM generate text?
+
+Answer: An LLM generates text by predicting the next token based on the previous tokens and the patterns it learned during training.
