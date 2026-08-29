@@ -1,0 +1,5 @@
+What is AI halucination?
+
+AI hallucination is when an AI model generates information that appears plausible and confident but is actually incorrect, fabricated, or unsupported. 
+It happens partly because language models are designed to generate likely sequences of tokens based on learned patterns, rather than inherently 
+verifying every statement against a reliable source. External tools such as search, databases, or calculators can help reduce certain types of hallucinations.
