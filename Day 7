@@ -1,1 +1,17 @@
+1. What is tokenization?
 
+Answer: Tokenization is the process of breaking text into smaller units called tokens so that an LLM can process the text.
+
+"Hello world"
+      ↓
+"Hello" + "world"
+      ↓
+Tokens
+
+2. Why do LLMs use tokens instead of directly processing words?
+
+Answer: Neural networks work with numerical representations. Tokenization converts text into token IDs, which can then be converted into numerical representations and processed by the model.
+
+3. What is a token?
+
+Answer: A token is a piece of text that the tokenizer uses as a unit of processing. It can be a complete word, part of a word, punctuation, or other text patterns.
