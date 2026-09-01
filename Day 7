@@ -17,7 +17,7 @@ representations and processed by the model.
 
 Answer: A token is a piece of text that the tokenizer uses as a unit of processing. It can be a complete word, part of a word, punctuation, or other text patterns.
 
-What is the overall process from text to LLM?
+4. What is the overall process from text to LLM?
 
 Answer:
 
@@ -35,10 +35,8 @@ Generated token IDs
     ↓
 Converted back to text
 
- What is the role of the tokenizer compared with the LLM?
+ 5.What is the role of the tokenizer compared with the LLM?
 
-Answer:
-
-Tokenizer: Converts text into a form the model can process.
+Answer: Tokenizer: Converts text into a form the model can process.
 
 LLM: Processes those tokens using learned patterns and generates a response.
