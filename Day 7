@@ -10,8 +10,8 @@ Tokens
 
 2. Why do LLMs use tokens instead of directly processing words?
 
-Answer: Neural networks work with numerical representations. Tokenization converts text into token IDs, which can then be converted into numerical 
-representations and processed by the model.
+Answer: Neural networks cannot directly process human-readable text. Tokenization converts text into tokens, which are mapped to numerical token IDs that the 
+model can process.
 
 3. What is a token?
 
