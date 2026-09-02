@@ -57,3 +57,58 @@ Answer: No. Tokenization only converts text into tokens. The LLM uses the tokens
 9. What happens when a conversation ends?
 
 Answer: The tokenizer's vocabulary doesn't change. The conversation isn't automatically added to the tokenizer or the model's weights.
+
+10 .What is a tokenizer vocabulary?
+
+Answer: A tokenizer vocabulary is a predefined collection of tokens that the tokenizer can use to represent text.
+
+It can contain:
+
+words
+subwords
+punctuation
+numbers
+special tokens
+
+11. What is Byte Pair Encoding (BPE)?
+
+Answer: BPE is a subword tokenization algorithm that starts with small units and repeatedly merges frequently occurring adjacent pairs to create reusable tokens.
+
+Simplified:
+
+Small pieces
+     ↓
+Find frequent pair
+     ↓
+Merge
+     ↓
+Repeat
+     ↓
+Subword vocabulary
+
+This is important because BPE is the actual mechanism we just discussed for building a subword vocabulary.
+
+12. What is the difference between a token and a token ID?
+
+Answer: A token is the actual piece of text, while a token ID is the numerical identifier assigned to that token in the vocabulary.
+
+For example:
+
+"cat" → token
+"cat" → 5234 → token ID
+
+The actual number depends on the tokenizer.
+
+13. Can a tokenizer process a completely new word it has never seen before?
+
+Answer: Yes. A subword tokenizer can break an unfamiliar word into smaller known tokens. If necessary, it can break it down even further into smaller units.
+
+For example:
+
+New word
+   ↓
+"zorbaling"
+   ↓
+"zorb" + "aling"
+
+The tokenizer can represent the word even if "zorbaling" itself isn't in the vocabulary.
