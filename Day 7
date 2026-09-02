@@ -73,6 +73,7 @@ special tokens
 11. What is Byte Pair Encoding (BPE)?
 
 Answer: BPE is a subword tokenization algorithm that starts with small units and repeatedly merges frequently occurring adjacent pairs to create reusable tokens.
+For example, from low, lower, and lowest, it can learn low as a common subword and then represent lower as low + er and lowest as low + est.
 
 Simplified:
 
@@ -112,3 +113,4 @@ New word
 "zorb" + "aling"
 
 The tokenizer can represent the word even if "zorbaling" itself isn't in the vocabulary.
+
