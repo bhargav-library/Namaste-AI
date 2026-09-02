@@ -114,3 +114,7 @@ New word
 
 The tokenizer can represent the word even if "zorbaling" itself isn't in the vocabulary.
 
+14. What is tokenisation fertility?
+
+Answer: Tokenisation fertility measures how many tokens are produced for a word, character, sequence, or linguistic unit.
+
