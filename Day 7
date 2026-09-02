@@ -40,3 +40,20 @@ Converted back to text
 Answer: Tokenizer: Converts text into a form the model can process.
 
 LLM: Processes those tokens using learned patterns and generates a response.
+
+
+ 6. What is subword tokenization?
+
+Answer: It breaks words into smaller reusable pieces, allowing the model to handle rare or unseen words.
+
+ 7. What happens if a word isn't in the vocabulary?
+
+Answer: The tokenizer breaks it into smaller tokens that are available in its vocabulary.
+
+8. Does tokenization mean the model understands the word?
+
+Answer: No. Tokenization only converts text into tokens. The LLM uses the tokens, learned patterns, and context to process the language."
+
+9. What happens when a conversation ends?
+
+Answer: The tokenizer's vocabulary doesn't change. The conversation isn't automatically added to the tokenizer or the model's weights.
