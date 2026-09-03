@@ -1,6 +1,7 @@
 How does an LLM distinguish between system, user, and assistant messages in a conversation?
 
-Answer: An LLM uses chat formatting and special tokens/markers to represent different roles and message boundaries. These role markers allow the model to understand which text is a system instruction, user input, or previous assistant response. The actual content is then tokenized into token IDs and processed by the model.
+Answer: An LLM uses chat formatting and special tokens/markers to represent different roles and message boundaries. These role markers allow the model to understand 
+which text is a system instruction, user input, or previous assistant response. The actual content is then tokenized into token IDs and processed by the model.
 
 Example:
 
