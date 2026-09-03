@@ -1,4 +1,4 @@
-How does an LLM distinguish between system, user, and assistant messages in a conversation?
+1. How does an LLM distinguish between system, user, and assistant messages in a conversation?
 
 Answer: An LLM uses chat formatting and special tokens/markers to represent different roles and message boundaries. These role markers allow the model to 
 understand which text is a system instruction, user input, or previous assistant response. The actual content is then tokenized into token IDs and processed 
@@ -17,3 +17,28 @@ Conceptually, the model receives something like:
 <ASSISTANT>
 
 The LLM then generates the next token(s), producing 4.
+
+2. What is a context window in an LLM?
+
+Answer:
+A context window is the maximum amount of tokenized information an LLM can process at once for a request. It can include 
+the system instructions, current prompt, previous messages, documents, tool outputs, and the response being generated.
+
+Example:
+
+System instructions
+        +
+Previous conversation
+        +
+Current prompt
+        +
+Tool/document information
+        ↓
+   Context Window
+        ↓
+      LLM
+        ↓
+   Generated response
+
+All of these consume tokens, so if the context exceeds the model's limit, some information may need to be removed or 
+otherwise handled before the model can continue.
